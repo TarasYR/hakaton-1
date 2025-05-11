@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(8, 5, 44);
+    color: white;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+.button {
+    background-color: #010d7e;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #f0efef;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+nav {
+    border-top: 5px solid rgb(97, 170, 238);
+    border-bottom: 5px solid rgb(97, 170, 238);
+    padding: 20px 100px 20px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 24px;
+    color: #a3d2f1;
+    background-color: #010d7e;
+    padding: 15px 20px;
+     border-radius: 15px;
+   
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(97, 170, 238);
+    margin-bottom: 34px;
+    margin-top: 45px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+article {
+    background-color: white;
+    padding: 15px 30px 30px 30px;
+    width: 400px;
+    margin: 20px;
+    background-color: rgb(95, 142, 184);
+    border-radius: 15px;
+}
+
+article h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    border-top: 2px dotted #02034e;
+    border-bottom: 2px dotted #02034e;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.article-but {
+    text-decoration: none;
+    background: #02034e;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 71px 10px 71px;
+    border-radius: 15px;
+}
+
+footer {
+    background: #93e3f0;
+    display: flex;
+    align-items: center;
+    padding: 45px 0px 45px 70px;
+}
+
+footer a {
+    margin-right: 50px;
+}
+
+footer p {
+    font-size: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+.about {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about li {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.about img {
+    border: 5px solid #fff;
+    width: 385px;
+    height: 385px;
+    margin-left: 30px;
+}
+
+.img1{
+    width: 1400px;
+}
